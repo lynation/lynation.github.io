@@ -1,0 +1,46 @@
+#about {
+  min-height: 100vh;
+  width: 100%;
+  background: rgba(204, 204, 204, 0.3);
+}
+#aboutme {
+  font-size: 4rem;
+  padding: 5rem;
+}
+.me {
+  color: #38bfb5;
+}
+.about {
+  color: #38a5d2;
+}
+.my-photo {
+  width: 75%;
+  margin: auto;
+  display: flex;
+}
+
+p.img-title {
+  padding-top: 10px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+ul.skills {
+  padding-top: 10px;
+}
+
+ul.skills li {
+  vertical-align: top;
+  margin-bottom: 2rem;
+}
+
+ul.skills li:last-child {
+  vertical-align: middle;
+}
+
+.pet {
+  color: blue;
+}

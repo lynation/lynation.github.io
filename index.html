@@ -12,21 +12,35 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="./bootstrap-4.4.1/dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.4.1/dist/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />-->
     <title>Sieng Ly | Web Developer</title>
   </head>
   <body>
     <header class="main-head">
       <nav>
-        <div class="logo">
-          <img src="./icons/code.svg" alt="logo" />
-          <h1>Sieng Ly</h1>
-        </div>
-        <ul>
-          <li><a class="active" href="/">Home</a></li>
-          <li><a href="./projects/">Projects</a></li>
-          <li><a href="./contact/">Contact</a></li>
+        <ul class="nav-links">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Resume</a></li>
         </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
     </header>
     <section class="intro">
@@ -37,13 +51,14 @@
           Developer
         </h3>
         <p>
-          I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+          I like to code things from scratch, and enjoy bringing ideas to life
+          in the browser.
         </p>
         <div class="intro-social">
-          <a href="https://github.com/lynation">
+          <a href="https://github.com/lynation" target="_blank">
             <img src="./icons/github.svg" alt="github-social-link"
           /></a>
-          <a href="https://www.linkedin.com/in/sieng-ly/">
+          <a href="https://www.linkedin.com/in/sieng-ly/" target="_blank">
             <img src="./icons/linked-in.svg" alt="linkedin-social-link"
           /></a>
         </div>
@@ -71,12 +86,12 @@
               <path
                 id="Vector_3"
                 d="M434.672 191.952C475.283 191.607 507.926 158.406 507.582 117.795C507.237 77.1832 474.036 44.5403 433.425 44.8847C392.813 45.2291 360.17 78.4303 360.515 119.042C360.859 159.653 394.06 192.296 434.672 191.952Z"
-                fill="#A0616A"
+                fill="#DFA8A2"
               />
               <path
                 id="Vector_4"
                 d="M379.477 155.65C379.477 155.65 394.216 259.972 373.002 271.875C351.787 283.779 499.929 283.588 499.929 283.588C499.929 283.588 466.124 193.284 480.809 165.449L379.477 155.65Z"
-                fill="#A0616A"
+                fill="#DFA8A2"
               />
               <path
                 id="Vector_5"
@@ -256,18 +271,299 @@
         <img class="splash" src="./img/splash.svg" alt="splash" />
       </div>
     </section>
+    <section id="about">
+      <div class="am container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 id="aboutme" class="title text-center">
+              <span class="about">About</span> <span class="me">Me</span>
+            </h1>
+            <br />
+            <div class="row">
+              <div class="col-md-4">
+                <img src="img/Sieng.png" alt="My Photo" class="my-photo" />
+                <p class="img-title text-center">Sieng Ly</p>
+              </div>
+              <div class="col-md-8">
+                <p>
+                  I am a fourth year student at UC San Diego studying Computer
+                  Science and Design and Interaction. Currently, I'm working as
+                  a Techical Support Analyst at UCSD Parking and Transportation
+                  Services, developing and implementing software to support and
+                  improve business operations.
+                </p>
+                <p>
+                  I have a firm knowledge of HTML, CSS, and JavaScript and
+                  possess a good knowledge of computer frameworks and tools that
+                  are used in today’s technology. On a personal level, I am
+                  highly-motivated, result oriented, self-driven, hard-working,
+                  fast learner and constantly seeking to improve my skills.
+                </p>
+                <p>
+                  In my free time, I like to play basketball, go on hikes, go
+                  fishing, or just hang out with my pets:
+                  <a class="pet" target="_blank" href="./img/Chance.jpg"
+                    >Chance</a
+                  >,
+                  <a class="pet" target="_blank" href="./img/Kailu.jpg">Kailu</a
+                  >,
+                  <a class="pet" target="_blank" href="./img/IMG_4127[4814].jpg"
+                    >Milo</a
+                  >.
+                </p>
+
+                <p>Below is a list of my current technical skills:</p>
+                <ul class="skills list-inline">
+                  <li>
+                    <a
+                      href="https://en.wikipedia.org/wiki/HTML5"
+                      target="_blank"
+                      ><img src="./img/HTML 1.png" alt="HTML5" title="HTML5"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3"
+                      target="_blank"
+                      ><img src="./img/CSS 1.png" alt="CSS3" title="CSS3"
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://en.wikipedia.org/wiki/JavaScript"
+                      target="_blank"
+                      ><img
+                        src="./img/JS 1.png"
+                        alt="JavaScript"
+                        title="JavaScript"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://reactjs.org/" target="_blank"
+                      ><img src="./img/React 1.png" alt="React" title="React"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://angular.io/" target="_blank"
+                      ><img
+                        src="./img/Angular 1.png"
+                        alt="Angular"
+                        title="Angular"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://vuejs.org/" target="_blank"
+                      ><img src="./img/Vue 1.png" alt="Vue.js" title="Vue.js"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.drupal.org/" target="_blank"
+                      ><img src="img/NodeJS.png" alt="Drupal" title="Drupal" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://sass-lang.com/" target="_blank"
+                      ><img src="./img/Sass 1.png" alt="Sass" title="Sass"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://materializecss.com/" target="_blank"
+                      ><img
+                        src="img/MaterialUI 1.png"
+                        alt="Material-UI"
+                        title="Material-UI"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://getbootstrap.com/" target="_blank"
+                      ><img
+                        src="./img/BOOTSTRAP 1.png"
+                        alt="Bootstrap"
+                        title="Bootstrap"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://www.mysql.com/" target="_blank"
+                      ><img src="./img/SQL 1.png" alt="SQL" title="SQL"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://git-scm.com/" target="_blank"
+                      ><img src="./img/Git 1.png" alt="Git" title="Git" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="http://www.adobe.com/products/photoshop.html"
+                      target="_blank"
+                      ><img
+                        src="./img/photoshop 1.png"
+                        alt="Photoshop"
+                        title="Photoshop"
+                    /></a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.figma.com/" target="_blank"
+                      ><img src="./img/Figma 1.png" alt="Figma" title="Figma"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="section-portfolio">
+        <div class="container">
+          <h1 class="text-center title" id="portfolio">Projects</h1>
+
+          <br />
+          <div
+            class="row object-non-visible animated object-visible fadeIn"
+            data-animation-effect="fadeIn"
+          >
+            <div class="col-md-12">
+              <!-- portfolio items start -->
+              <div class="portfolio-container row grid-space-20">
+                <!-- Landing page -->
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <div class="image-box">
+                    <div class="overlay-container">
+                      <img
+                        class="mypi"
+                        src="./img/Project 1.jpg"
+                        alt="Landing page example"
+                      />
+                      <a
+                        class="overlay"
+                        data-toggle="modal"
+                        data-target="#project-1"
+                      >
+                        <i class="fa fa-search-plus"></i>
+                      </a>
+                    </div>
+                    <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Landing page example</a> -->
+                  </div>
+                  <!-- Modal -->
+
+                  <!-- Modal end -->
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <div class="image-box">
+                    <div class="overlay-container">
+                      <img src="img/Project 2.jpg" alt="Landing page example" />
+                      <a
+                        class="overlay"
+                        data-toggle="modal"
+                        data-target="#project-2"
+                      >
+                        <i class="fa fa-search-plus"></i>
+                      </a>
+                    </div>
+                    <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Landing page example</a> -->
+                  </div>
+                  <!-- Modal -->
+
+                  <!-- Modal end -->
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <div class="image-box">
+                    <div class="overlay-container">
+                      <img src="img/Project 3.jpg" alt="React App" />
+                      <a
+                        class="overlay"
+                        data-toggle="modal"
+                        data-target="#project-3"
+                      >
+                        <i class="fa fa-search-plus"></i>
+                      </a>
+                    </div>
+                    <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Landing page example</a> -->
+                  </div>
+                  <!-- Modal -->
+
+                  <!-- Modal end -->
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <div class="image-box">
+                    <div class="overlay-container">
+                      <img src="img/Project 6.jpg" alt="Landing page example" />
+                      <a
+                        class="overlay"
+                        data-toggle="modal"
+                        data-target="#project-6"
+                      >
+                        <i class="fa fa-search-plus"></i>
+                      </a>
+                    </div>
+                    <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Landing page example</a> -->
+                  </div>
+                  <!-- Modal -->
+
+                  <!-- Modal end -->
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <div class="image-box">
+                    <div class="overlay-container">
+                      <img src="img/Project 4.jpg" alt="Landing page example" />
+                      <a
+                        class="overlay"
+                        data-toggle="modal"
+                        data-target="#project-4"
+                      >
+                        <i class="fa fa-search-plus"></i>
+                      </a>
+                    </div>
+                    <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Landing page example</a> -->
+                  </div>
+                  <!-- Modal -->
+
+                  <!-- Modal end -->
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <div class="image-box">
+                    <div class="overlay-container">
+                      <img src="img/Project 5.jpg" alt="Landing page example" />
+                      <a
+                        class="overlay"
+                        data-toggle="modal"
+                        data-target="#project-5"
+                      >
+                        <i class="fa fa-search-plus"></i>
+                      </a>
+                    </div>
+                    <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Landing page example</a> -->
+                  </div>
+                  <!-- Modal -->
+
+                  <!-- Modal end -->
+                </div>
+              </div>
+              <!-- portfolio items end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer>
       <h4>Sieng Ly &copy; 2020</h4>
       <ul>
         <li>
-          <a href="https://github.com/lynation"> <img src="../icons/git-hub.svg" alt="github"/></a>
+          <a href="https://github.com/lynation">
+            <img src="./icons/git-hub.svg" alt="github"
+          /></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/sieng-ly"> <img src="../icons/linkedin.svg" alt="linkedin"/></a>
-        </li>
-          <a href="https://www.instagram.com/lynation97/"> <img src="../icons/instagram 1.svg" alt="instagram"/></a>
+          <a href="https://www.linkedin.com/in/sieng-ly">
+            <img src="./icons/linkedin.svg" alt="linkedin"
+          /></a>
         </li>
       </ul>
     </footer>
+
+    <script src="./app.js"></script>
   </body>
 </html>

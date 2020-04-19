@@ -1,23 +1,25 @@
 .main-head {
-  width: 95%;
+  width: 100%;
   margin: 0 0 0 auto;
 }
 
+a:hover {
+  text-decoration: none;
+}
 nav {
-  @include flex(space-between, center, row);
   min-height: 10vh;
-  width: 60%;
+  padding-left: 5%;
+  @include flex(space-between, center, row);
+
+  width: 100%;
   flex-wrap: wrap;
-  .logo {
-    @include flex(flex-start, center, row);
-    flex: 1 1 10rem;
-    h1 {
-      margin: 2rem;
-    }
-  }
+  padding-right: 40%;
+  z-index: 10;
+
   ul {
-    @include flex(space-around, center, row);
-    flex: 1 1 40rem;
+    @include flex(space-between, center, row);
+    flex: 10 1 40rem;
+    text-decoration: none;
   }
 }
 
@@ -30,6 +32,10 @@ nav {
   h2 {
     font-size: 8rem;
     padding-top: 2rem;
+    background: $gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     /*background: $gradient;
      -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
@@ -70,6 +76,17 @@ nav {
 .intro-text,
 .intro-images {
   flex: 1 1 40rem;
+}
+.burger {
+  display: none;
+  cursor: pointer;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+  transition: all 0.3s ease;
 }
 
 #plant-left {
