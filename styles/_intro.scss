@@ -36,9 +36,6 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    /*background: $gradient;
-     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
     display: inline-block;
   }
   h3 {
@@ -63,6 +60,17 @@ nav {
   margin-top: 4rem;
   a {
     margin-right: 5rem;
+  }
+  .mywork {
+    padding: 1.5rem;
+    border: none;
+    box-shadow: 2px 3px gray;
+    background: linear-gradient(top, #39a9cf, #3abcbb);
+    color: white;
+    border-radius: 1rem;
+  }
+  .mywork:hover {
+    background: rgb(56, 107, 77);
   }
 }
 

@@ -33,8 +33,10 @@
           <li><a class="active" href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="./pdf/Sieng_Ly'Resume.pdf" target="_blank">Resume</a>
+          </li>
         </ul>
         <div class="burger">
           <div class="line1"></div>
@@ -61,6 +63,7 @@
           <a href="https://www.linkedin.com/in/sieng-ly/" target="_blank">
             <img src="./icons/linked-in.svg" alt="linkedin-social-link"
           /></a>
+          <a href="#projects"><button class="mywork">View My Work</button></a>
         </div>
       </div>
       <div class="intro-images">
@@ -282,7 +285,9 @@
             <div class="row">
               <div class="col-md-4">
                 <img src="img/Sieng.png" alt="My Photo" class="my-photo" />
-                <p class="img-title text-center">Sieng Ly</p>
+                <p class="img-title text-center name">
+                  <span class="sieng"> Sieng</span> <span class="ly">Ly</span>
+                </p>
               </div>
               <div class="col-md-8">
                 <p>
@@ -293,9 +298,10 @@
                   improve business operations.
                 </p>
                 <p>
-                  I have a firm knowledge of HTML, CSS, and JavaScript and
-                  possess a good knowledge of computer frameworks and tools that
-                  are used in today’s technology. On a personal level, I am
+                  I have a firm knowledge of
+                  <b> HTML, CSS, </b> and <b> JavaScript </b> and possess a good
+                  knowledge of computer frameworks and tools that are used in
+                  today’s technology. On a personal level, I am
                   highly-motivated, result oriented, self-driven, hard-working,
                   fast learner and constantly seeking to improve my skills.
                 </p>
@@ -306,10 +312,8 @@
                     >Chance</a
                   >,
                   <a class="pet" target="_blank" href="./img/Kailu.jpg">Kailu</a
-                  >,
-                  <a class="pet" target="_blank" href="./img/IMG_4127[4814].jpg"
-                    >Milo</a
-                  >.
+                  >, and
+                  <a class="pet" target="_blank" href="./img/Milo.png">Milo</a>.
                 </p>
 
                 <p>Below is a list of my current technical skills:</p>
@@ -418,7 +422,7 @@
     <section id="projects">
       <div class="section-portfolio">
         <div class="container">
-          <h1 class="text-center title" id="portfolio">Projects</h1>
+          <h1 class="text-center title project" id="portfolio">Projects</h1>
 
           <br />
           <div
@@ -547,6 +551,18 @@
           </div>
         </div>
       </div>
+    </section>
+    <section id="contact" class="form-section">
+      <h1 class="text-center title project">Contact</h1>
+      <form action="https://formspree.io/xbjavwrv" method="POST">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email" name="_replyto">Email</label>
+        <input type="email" name="email" id="email" required />
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"> </textarea>
+        <button tpye="submit" value="Send">Submit</button>
+      </form>
     </section>
     <footer>
       <h4>Sieng Ly &copy; 2020</h4>

@@ -131,9 +131,6 @@ nav ul {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  /*background: $gradient;
-     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;*/
   display: inline-block;
 }
 
@@ -161,6 +158,21 @@ nav ul {
 
 .intro-social a {
   margin-right: 5rem;
+}
+
+.intro-social .mywork {
+  padding: 1.5rem;
+  border: none;
+  -webkit-box-shadow: 2px 3px gray;
+          box-shadow: 2px 3px gray;
+  background: -webkit-gradient(linear, left top, left bottom, from(#39a9cf), to(#3abcbb));
+  background: linear-gradient(top, #39a9cf, #3abcbb);
+  color: white;
+  border-radius: 1rem;
+}
+
+.intro-social .mywork:hover {
+  background: #386b4d;
 }
 
 .active {
@@ -284,6 +296,11 @@ nav ul {
 
 .text-center {
   padding: 3rem;
+  font-size: 4rem;
+}
+
+.project {
+  color: #278c84;
 }
 
 .portfolio-container {
@@ -375,6 +392,7 @@ nav ul {
 }
 
 .form-section {
+  background: rgba(204, 204, 204, 0.3);
   min-height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -385,10 +403,10 @@ nav ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 3rem;
 }
 
@@ -544,13 +562,14 @@ ul.skills li:last-child {
   }
   html {
     font-size: 53%;
+    scroll-behavior: smooth;
   }
   .splash {
     height: 90%;
   }
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
   body {
     background: rgba(173, 169, 194, 0.3);
   }
@@ -566,6 +585,12 @@ ul.skills li:last-child {
   nav {
     width: 100%;
     padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .mywork {
+    display: none;
   }
 }
 

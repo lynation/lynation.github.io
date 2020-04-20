@@ -1,6 +1,7 @@
 .form-section {
+  background: rgba(204, 204, 204, 0.3);
   min-height: 80vh;
-  @include flex(center, center, row);
+  @include flex(center, center, column);
   margin-top: 3rem;
   form {
     padding: 3rem 10rem;
