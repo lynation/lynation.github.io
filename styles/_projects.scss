@@ -52,12 +52,16 @@
 }
 
 .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 0;
   bottom: -1px;
   left: 0;
   right: -1px;
-  background-color: rgba(85, 172, 238, 0.9);
+  background-color: rgba(117, 173, 224, 0.9);
   cursor: pointer;
   overflow: hidden;
   opacity: 0;
@@ -72,22 +76,18 @@
   -ms-transition: all linear 0.2s;
   -o-transition: all linear 0.2s;
   transition: all linear 0.2s;
+
+  h3 {
+    color: white;
+  }
 }
 
 .overlay:hover {
   text-decoration: none;
 }
-
-.overlay i {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  font-size: 25px;
-  line-height: 1;
-  color: #ffffff;
-  margin-top: -8px;
-  margin-left: -8px;
-  text-align: center;
+.project-toggle button {
+  padding: 1rem 2rem;
+  border: none;
 }
 
 .overlay-container:hover .overlay {
