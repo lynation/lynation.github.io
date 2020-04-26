@@ -1,10 +1,15 @@
 .main-head {
   width: 100%;
   margin: 0 0 0 auto;
+  color: white;
+
+  top: 0;
+  z-index: 3;
 }
 
 a:hover {
   text-decoration: none;
+  color: black;
 }
 nav {
   min-height: 10vh;
@@ -92,7 +97,7 @@ nav {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: white;
   margin: 5px;
   transition: all 0.3s ease;
 }

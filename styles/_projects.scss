@@ -61,7 +61,7 @@
   bottom: -1px;
   left: 0;
   right: -1px;
-  background-color: rgba(117, 173, 224, 0.9);
+  background-color: rgba(89, 142, 190, 0.9);
   cursor: pointer;
   overflow: hidden;
   opacity: 0;
@@ -79,6 +79,8 @@
 
   h3 {
     color: white;
+    font-size: 3rem;
+    padding: 1rem;
   }
 }
 
@@ -88,6 +90,9 @@
 .project-toggle button {
   padding: 1rem 2rem;
   border: none;
+  color: white;
+  background: #022a38;
+  border-radius: 1rem;
 }
 
 .overlay-container:hover .overlay {

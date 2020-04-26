@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="./bootstrap-4.4.1/dist/css/bootstrap.min.css"
     />
+
     <link rel="stylesheet" href="./styles/style.css" />
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <!-- <link
@@ -35,7 +36,7 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a href="./pdf/Sieng_Ly'Resume.pdf" target="_blank">Resume</a>
+            <a href="./pdf/Sieng_Ly_Resume.pdf" target="_blank">Resume</a>
           </li>
         </ul>
         <div class="burger">
@@ -63,7 +64,7 @@
           <a href="https://www.linkedin.com/in/sieng-ly/" target="_blank">
             <img src="./icons/linked-in.svg" alt="linkedin-social-link"
           /></a>
-          <a href="#projects"><button class="mywork">View My Work</button></a>
+          <a href="#projects"><button class="mywork">View Projects</button></a>
         </div>
       </div>
       <div class="intro-images">
@@ -438,7 +439,7 @@
                     <div class="overlay-container">
                       <img
                         class="mypi"
-                        src="./img/Project 1.jpg"
+                        src="./img/wayze.png"
                         alt="Landing page example"
                       />
                       <a
@@ -448,8 +449,16 @@
                       >
                         <h3>Short Wayze</h3>
                         <div class="project-toggle">
-                          <button>Demo</button>
-                          <button>Code</button>
+                          <button
+                            onclick="window.open('https://short-wayze.herokuapp.com/');"
+                          >
+                            Site
+                          </button>
+                          <button
+                            onclick="window.open('https://github.com/lynation/short_wayze.git');"
+                          >
+                            Code
+                          </button>
                         </div>
                       </a>
                     </div>
@@ -463,13 +472,25 @@
                 <div class="col-md-4 col-sm-6 portfolio-item">
                   <div class="image-box">
                     <div class="overlay-container">
-                      <img src="img/Project 2.jpg" alt="Landing page example" />
+                      <img src="img/beat.png" alt="Landing page example" />
                       <a
                         class="overlay"
                         data-toggle="modal"
                         data-target="#project-2"
                       >
-                        <i class="fa fa-search-plus"></i>
+                        <h3>Beat Maker</h3>
+                        <div class="project-toggle">
+                          <button
+                            onclick="window.open('https://sieng-beatmaker.netlify.app');"
+                          >
+                            Site
+                          </button>
+                          <button
+                            onclick="window.open('https://github.com/lynation/Beat-Maker.git');"
+                          >
+                            Code
+                          </button>
+                        </div>
                       </a>
                     </div>
                     <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Landing page example</a> -->
@@ -481,13 +502,25 @@
                 <div class="col-md-4 col-sm-6 portfolio-item">
                   <div class="image-box">
                     <div class="overlay-container">
-                      <img src="img/Project 3.jpg" alt="React App" />
+                      <img src="img/colors.png" alt="React App" />
                       <a
                         class="overlay"
                         data-toggle="modal"
                         data-target="#project-3"
                       >
-                        <i class="fa fa-search-plus"></i>
+                        <h3>Colors Generator</h3>
+                        <div class="project-toggle">
+                          <button
+                            onclick="window.open('https://sieng-colorsgenerator.netlify.app');"
+                          >
+                            Site
+                          </button>
+                          <button
+                            onclick="window.open('https://github.com/lynation/Colors-Generator.git');"
+                          >
+                            Code
+                          </button>
+                        </div>
                       </a>
                     </div>
                     <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Landing page example</a> -->
@@ -499,13 +532,25 @@
                 <div class="col-md-4 col-sm-6 portfolio-item">
                   <div class="image-box">
                     <div class="overlay-container">
-                      <img src="img/Project 6.jpg" alt="Landing page example" />
+                      <img src="img/travel.png" alt="Landing page example" />
                       <a
                         class="overlay"
                         data-toggle="modal"
                         data-target="#project-6"
                       >
-                        <i class="fa fa-search-plus"></i>
+                        <h3>Travelly</h3>
+                        <div class="project-toggle">
+                          <button
+                            onclick="window.open('https://sieng-travelwebsite.netlify.app');"
+                          >
+                            Site
+                          </button>
+                          <button
+                            onclick="window.open('https://github.com/lynation/Travelly.git');"
+                          >
+                            Code
+                          </button>
+                        </div>
                       </a>
                     </div>
                     <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Landing page example</a> -->
@@ -517,13 +562,25 @@
                 <div class="col-md-4 col-sm-6 portfolio-item">
                   <div class="image-box">
                     <div class="overlay-container">
-                      <img src="img/Project 4.jpg" alt="Landing page example" />
+                      <img src="img/todolist.png" alt="Landing page example" />
                       <a
                         class="overlay"
                         data-toggle="modal"
                         data-target="#project-4"
                       >
-                        <i class="fa fa-search-plus"></i>
+                        <h3>Todo List</h3>
+                        <div class="project-toggle">
+                          <button
+                            onclick="window.open('https://sieng-todolist.netlify.app');"
+                          >
+                            Site
+                          </button>
+                          <button
+                            onclick="window.open('https://github.com/lynation/Todo-List.git');"
+                          >
+                            Code
+                          </button>
+                        </div>
                       </a>
                     </div>
                     <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Landing page example</a> -->
@@ -535,13 +592,21 @@
                 <div class="col-md-4 col-sm-6 portfolio-item">
                   <div class="image-box">
                     <div class="overlay-container">
-                      <img src="img/Project 5.jpg" alt="Landing page example" />
+                      <img src="img/photon.jpg" alt="Landing page example" />
                       <a
                         class="overlay"
                         data-toggle="modal"
                         data-target="#project-5"
                       >
-                        <i class="fa fa-search-plus"></i>
+                        <h3>Photon (In Progress)</h3>
+                        <div class="project-toggle">
+                          <button>
+                            Site
+                          </button>
+                          <button>
+                            Code
+                          </button>
+                        </div>
                       </a>
                     </div>
                     <!-- <a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Landing page example</a> -->
