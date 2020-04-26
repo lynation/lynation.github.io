@@ -601,6 +601,19 @@ ul.skills li:last-child {
   }
 }
 
+@media screen and (max-width: 1500px) {
+  nav {
+    width: 100%;
+    padding-right: 45%;
+  }
+  html {
+    font-size: 53%;
+  }
+  .splash {
+    height: 90%;
+  }
+}
+
 @media screen and (max-width: 1320px) {
   html {
     font-size: 53%;
