@@ -85,6 +85,13 @@ nav {
   padding: 1rem 3rem;
   border-radius: 2rem;
 }
+.fixed-header {
+  background-color: rgba(00, 00, 00, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 .intro-text,
 .intro-images {
