@@ -1,0 +1,119 @@
+.intro {
+  padding-top: 54px;
+}
+.intro p {
+  font-size: 22px;
+}
+.title {
+  font-size: 48px;
+}
+.hero img {
+  height: 400px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 700;
+}
+p,
+ul,
+li,
+h4,
+h1 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+
+.section {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.problem-statement {
+  font-size: 23px;
+  color: red;
+  width: 100%;
+  text-align: center;
+}
+
+.storyboarding img {
+  width: 98%;
+}
+
+.emphasis {
+  font-weight: 700;
+}
+
+.wireframe img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.lightbox1 img {
+  /** Pad the lightbox image */
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 0%;
+}
+
+.lightbox1 {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
+.lightbox1:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
