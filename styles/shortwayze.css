@@ -2,31 +2,29 @@
   padding-top: 54px;
 }
 .intro p {
-  font-size: 22px;
+  font-size: 18px;
 }
 .title {
-  font-size: 48px;
+  font-size: 40px;
+  font-weight: 700;
 }
 .hero img {
   height: 400px;
 }
 
 h2 {
-  font-size: 26px;
   font-weight: 700;
 }
 
 h4 {
-  font-weight: 700;
+  font-weight: 600;
 }
 p,
 ul,
 li,
 h4,
 h1 {
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Slab", serif;
 }
 
 .section {
@@ -35,7 +33,7 @@ h1 {
 }
 
 .problem-statement {
-  font-size: 23px;
+  font-size: 22px;
   color: red;
   width: 100%;
   text-align: center;
@@ -47,6 +45,7 @@ h1 {
 
 .emphasis {
   font-weight: 700;
+  font-size: 18px;
 }
 
 .wireframe img {
@@ -116,4 +115,8 @@ h1 {
 
   /** Unhide lightbox **/
   display: block;
+}
+
+.container {
+  max-width: 900px;
 }
