@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: 0;
-          box-sizing: 0;
+  box-sizing: 0;
 }
 
 html {
@@ -71,18 +71,18 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   width: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding-right: 40%;
   z-index: 10;
 }
@@ -92,18 +92,18 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-flex: 10;
-      -ms-flex: 10 1 40rem;
-          flex: 10 1 40rem;
+  -ms-flex: 10 1 40rem;
+  flex: 10 1 40rem;
   text-decoration: none;
 }
 
@@ -112,26 +112,32 @@ nav ul {
   width: 90%;
   margin: auto;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .intro h2 {
   font-size: 8rem;
   padding-top: 2rem;
-  background: -webkit-gradient(linear, left top, right top, from(#38d39f), to(#38a4d3));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#38d39f),
+    to(#38a4d3)
+  );
   background: linear-gradient(left, #38d39f, #38a4d3);
   background-clip: text;
   -webkit-background-clip: text;
@@ -169,8 +175,14 @@ nav ul {
   padding: 1.5rem;
   border: none;
   -webkit-box-shadow: 2px 3px gray;
-          box-shadow: 2px 3px gray;
-  background: -webkit-gradient(linear, left top, left bottom, from(#39a9cf), to(#3abcbb));
+  box-shadow: 2px 3px gray;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#39a9cf),
+    to(#3abcbb)
+  );
   background: linear-gradient(top, #39a9cf, #3abcbb);
   color: white;
   border-radius: 1rem;
@@ -198,8 +210,8 @@ nav ul {
 .intro-text,
 .intro-images {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
 }
 
 .burger {
@@ -218,92 +230,92 @@ nav ul {
 
 #plant-left {
   -webkit-animation: plant 1.5s ease infinite alternate;
-          animation: plant 1.5s ease infinite alternate;
+  animation: plant 1.5s ease infinite alternate;
 }
 
 #plant-right {
   -webkit-animation: plant 1.5s ease infinite alternate 0.5s;
-          animation: plant 1.5s ease infinite alternate 0.5s;
+  animation: plant 1.5s ease infinite alternate 0.5s;
 }
 
 #me {
   -webkit-animation: me 1.5s ease infinite alternate;
-          animation: me 1.5s ease infinite alternate;
+  animation: me 1.5s ease infinite alternate;
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
 }
 
 #clock-arrow {
   -webkit-animation: clock 2s infinite linear;
-          animation: clock 2s infinite linear;
+  animation: clock 2s infinite linear;
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
   transform-box: fill-box;
 }
 
 @-webkit-keyframes me {
   from {
     -webkit-transform: rotateZ(-5deg);
-            transform: rotateZ(-5deg);
+    transform: rotateZ(-5deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-            transform: rotateZ(5deg);
+    transform: rotateZ(5deg);
   }
 }
 
 @keyframes me {
   from {
     -webkit-transform: rotateZ(-5deg);
-            transform: rotateZ(-5deg);
+    transform: rotateZ(-5deg);
   }
   to {
     -webkit-transform: rotateZ(5deg);
-            transform: rotateZ(5deg);
+    transform: rotateZ(5deg);
   }
 }
 
 @-webkit-keyframes plant {
   from {
     -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
   }
   to {
     -webkit-transform: translateY(-30%);
-            transform: translateY(-30%);
+    transform: translateY(-30%);
   }
 }
 
 @keyframes plant {
   from {
     -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
   }
   to {
     -webkit-transform: translateY(-30%);
-            transform: translateY(-30%);
+    transform: translateY(-30%);
   }
 }
 
 @-webkit-keyframes clock {
   from {
     -webkit-transform: rotateZ(0deg);
-            transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
   to {
     -webkit-transform: rotateZ(360deg);
-            transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
   }
 }
 
 @keyframes clock {
   from {
     -webkit-transform: rotateZ(0deg);
-            transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
   }
   to {
     -webkit-transform: rotateZ(360deg);
-            transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
   }
 }
 
@@ -346,7 +358,7 @@ nav ul {
   overflow: hidden;
   border-radius: 5px;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .image-box::before {
@@ -370,14 +382,14 @@ nav ul {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   position: absolute;
   top: 0;
   bottom: -1px;
@@ -427,35 +439,36 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-top: 3rem;
 }
 
 .form-section form {
   padding: 3rem 10rem;
-  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2),
+    0px 20px 40px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 40px rgba(0, 0, 0, 0.2);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border-radius: 2rem;
 }
 
@@ -494,39 +507,39 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 footer ul {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+  -ms-flex: 1 1 40rem;
+  flex: 1 1 40rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 footer h4 {
   -webkit-box-flex: 2;
-      -ms-flex: 2 1 40rem;
-          flex: 2 1 40rem;
+  -ms-flex: 2 1 40rem;
+  flex: 2 1 40rem;
 }
 
 #about {
@@ -563,8 +576,8 @@ p.img-title {
 .skills {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[6];
-      grid-template-columns: repeat(6, 1fr);
+  -ms-grid-columns: (1fr) [6];
+  grid-template-columns: repeat(6, 1fr);
 }
 
 ul.skills {
@@ -671,12 +684,7 @@ ul.skills li:last-child {
   .main-head {
     width: 100;
   }
-  /* nav {
-    ul {
-      flex: 1 1 60rem;
-      margin: 2rem 0rem;
-    }
-  }*/
+
   .intro-text {
     margin-top: 5rem;
     text-align: center;
@@ -689,15 +697,15 @@ ul.skills li:last-child {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .intro-social a {
     margin: 2rem;
@@ -705,8 +713,8 @@ ul.skills li:last-child {
   .travely,
   .photography {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 50rem;
-            flex: 1 1 50rem;
+    -ms-flex: 1 1 50rem;
+    flex: 1 1 50rem;
   }
   .travely img,
   .photography img {
@@ -719,22 +727,23 @@ ul.skills li:last-child {
   }
   .nav-links {
     position: fixed;
+    justify-content: space-evenly;
     padding-top: 3rem;
     padding-bottom: 3rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     right: 0px;
     height: 100vh;
     top: 0vh;
     background-color: #1d1d1f;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
     -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    transform: translateX(100%);
     -webkit-transition: -webkit-transform 0.3s ease-in;
     transition: -webkit-transform 0.3s ease-in;
     transition: transform 0.3s ease-in;
@@ -745,14 +754,14 @@ ul.skills li:last-child {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .nav-links li {
     opacity: 0%;
@@ -764,19 +773,19 @@ ul.skills li:last-child {
 
 .nav-active {
   -webkit-transform: translateX(0%);
-          transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 @-webkit-keyframes navLinkFade {
   from {
     opacity: 0;
     -webkit-transform: translateX(50px);
-            transform: translateX(50px);
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
@@ -784,18 +793,18 @@ ul.skills li:last-child {
   from {
     opacity: 0;
     -webkit-transform: translateX(50px);
-            transform: translateX(50px);
+    transform: translateX(50px);
   }
   to {
     opacity: 1;
     -webkit-transform: translateX(0px);
-            transform: translateX(0px);
+    transform: translateX(0px);
   }
 }
 
 .toggle .line1 {
   -webkit-transform: rotate(-45deg) translate(-5px, 6px);
-          transform: rotate(-45deg) translate(-5px, 6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .toggle .line2 {
@@ -804,6 +813,6 @@ ul.skills li:last-child {
 
 .toggle .line3 {
   -webkit-transform: rotate(45deg) translate(-5px, -6px);
-          transform: rotate(45deg) translate(-5px, -6px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 /*# sourceMappingURL=style.css.map */
