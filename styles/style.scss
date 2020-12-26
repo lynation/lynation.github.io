@@ -135,10 +135,10 @@ $gray-text: #2c2c2c;
   }
 
   .nav-links {
+    position: fixed;
     padding-top: 3rem;
     padding-bottom: 3rem;
     flex-direction: column;
-    position: absolute;
     right: 0px;
     height: 100vh;
     top: 0vh;
